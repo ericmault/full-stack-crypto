@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name="description" content="My description">
+    
+        <link rel="icon" href="https://via.placeholder.com/70x70">
+        <link rel="stylesheet" href="../static/mvp.css?v=1.1">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Dropdown    </a>
+                        <ul>
+                            <li><a href="#">Sublink with a long name</a></li>
+                            <li><a href="#">Short sublink</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Crypto Currencies</h1>
+        </header>
+        {% block content %}
+        {% endblock %}
+        <footer>
+            <hr>
+            <p>
+                <small>Contact info</small>
+            </p>
+        </footer>
+    </body>
+</html>
