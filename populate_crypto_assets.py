@@ -55,7 +55,7 @@ for x in r.json():
 # }
 # headers = {
 #   'Accepts': 'application/json',
-#   'X-CMC_PRO_API_KEY': '5bb5e0e4-b748-45a8-951e-8bd5980f601c',
+#   'X-CMC_PRO_API_KEY': '',
 # }
 
 # session = Session()
